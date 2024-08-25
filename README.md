@@ -51,11 +51,11 @@ For the Kernel Module :
 
 - STEP 2: Load the kernel module using :
   ```bash
-  sudo insmod kernel_matrix_multiply.ko       #here kernel_matrix_multiply is the name of the c file containing kernel code
+  sudo insmod kernel_matrix_multiplication.ko       #here kernel_matrix_multiply is the name of the c file containing kernel code
 
 - STEP 3: Verify the module is loaded :
   ```bash
-  lsmod | grep kernel_matrix_multiply
+  lsmod | grep kernel_matrix_multiplication
 
 - STEP 4: Check kernel logs for output :
   ```bash
@@ -63,4 +63,4 @@ For the Kernel Module :
 
 - STEP 5: Remove/ the Kernel Module :
   ```bash
-  sudo rmmod matrix_multiply 
+  sudo rmmod matrix_multiplication 
